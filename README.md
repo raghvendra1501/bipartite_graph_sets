@@ -5,6 +5,7 @@ Suppose I have A number of jobs and B number of candidates, each candidate wants
 In short one candidate can join only one job, and on one job fixed number of candidates can join. Then to find a solution so that each job can get required number of candidates.
 
 <code>
+
 requirement_hash = {
   'A' => {
     options: [100, 101, 102, 103],
@@ -21,8 +22,9 @@ requirement_hash = {
 }
 
 
+
 > BipartiteGraphSets.get_perfect_match requirement_hash
 => {"A"=>[102, 100], "B"=>[103, 101], "C"=>[99, 104]}
-or
-{"B"=>[102, 103], "A"=>[101, 100], "C"=>[99, 104]}
+=>  or
+=> {"B"=>[102, 103], "A"=>[101, 100], "C"=>[99, 104]}
 </code>
