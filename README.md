@@ -3,7 +3,7 @@
 <br>
 
 Job Assignment problem is very common, and after a lot of searching here and there, I got to know it is actually a <a href='https://en.wikipedia.org/wiki/Bipartite_graph'>Bipartite Graph Problem</a></br>
-Job assignment problem can be explained as, suppose there are <b>A</b> number of canidates, and <b>B</b> number of jobs. each candidate has filed application for <b>b</b> jobs which is a subset of <b>B</b>. but he can join only 1 job.
+Job assignment problem can be explained as, suppose there are <b>A</b> number of candidates, and <b>B</b> number of jobs. each candidate has filed application for <b>b</b> jobs which is a subset of <b>B</b>. but he can join only 1 job.
 But for each job some fixed number of candidates can be assigned out of b. So we need to found the maximum number of candidate that can find job and get to know who gets what job. <br>
 
 <b>For example:</b><br/>
